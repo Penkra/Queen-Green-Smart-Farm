@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD39FB64244024C200D9DB02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD39FB63244024C200D9DB02 /* AppDelegate.swift */; };
+		AD39FB66244024C200D9DB02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD39FB65244024C200D9DB02 /* SceneDelegate.swift */; };
+		AD39FB68244024C200D9DB02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD39FB67244024C200D9DB02 /* ViewController.swift */; };
+		AD39FB6B244024C200D9DB02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD39FB69244024C200D9DB02 /* Main.storyboard */; };
+		AD39FB6D244024C800D9DB02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD39FB6C244024C800D9DB02 /* Assets.xcassets */; };
+		AD39FB70244024C800D9DB02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD39FB6E244024C800D9DB02 /* LaunchScreen.storyboard */; };
+		AD39FB7B244024C900D9DB02 /* Queen_Green_Smart_FarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD39FB7A244024C900D9DB02 /* Queen_Green_Smart_FarmTests.swift */; };
+		AD39FB86244024C900D9DB02 /* Queen_Green_Smart_FarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD39FB85244024C900D9DB02 /* Queen_Green_Smart_FarmUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD39FB77244024C900D9DB02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD39FB58244024C200D9DB02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD39FB5F244024C200D9DB02;
+			remoteInfo = "Queen Green Smart Farm";
+		};
+		AD39FB82244024C900D9DB02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD39FB58244024C200D9DB02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD39FB5F244024C200D9DB02;
+			remoteInfo = "Queen Green Smart Farm";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD39FB60244024C200D9DB02 /* Queen Green Smart Farm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Queen Green Smart Farm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD39FB63244024C200D9DB02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD39FB65244024C200D9DB02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AD39FB67244024C200D9DB02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD39FB6A244024C200D9DB02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD39FB6C244024C800D9DB02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD39FB6F244024C800D9DB02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD39FB71244024C800D9DB02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD39FB76244024C900D9DB02 /* Queen Green Smart FarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Queen Green Smart FarmTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD39FB7A244024C900D9DB02 /* Queen_Green_Smart_FarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queen_Green_Smart_FarmTests.swift; sourceTree = "<group>"; };
+		AD39FB7C244024C900D9DB02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD39FB81244024C900D9DB02 /* Queen Green Smart FarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Queen Green Smart FarmUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD39FB85244024C900D9DB02 /* Queen_Green_Smart_FarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queen_Green_Smart_FarmUITests.swift; sourceTree = "<group>"; };
+		AD39FB87244024C900D9DB02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD39FB5D244024C200D9DB02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD39FB73244024C900D9DB02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD39FB7E244024C900D9DB02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD39FB57244024C200D9DB02 = {
+			isa = PBXGroup;
+			children = (
+				AD39FB62244024C200D9DB02 /* Queen Green Smart Farm */,
+				AD39FB79244024C900D9DB02 /* Queen Green Smart FarmTests */,
+				AD39FB84244024C900D9DB02 /* Queen Green Smart FarmUITests */,
+				AD39FB61244024C200D9DB02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD39FB61244024C200D9DB02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD39FB60244024C200D9DB02 /* Queen Green Smart Farm.app */,
+				AD39FB76244024C900D9DB02 /* Queen Green Smart FarmTests.xctest */,
+				AD39FB81244024C900D9DB02 /* Queen Green Smart FarmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD39FB62244024C200D9DB02 /* Queen Green Smart Farm */ = {
+			isa = PBXGroup;
+			children = (
+				AD39FB63244024C200D9DB02 /* AppDelegate.swift */,
+				AD39FB65244024C200D9DB02 /* SceneDelegate.swift */,
+				AD39FB67244024C200D9DB02 /* ViewController.swift */,
+				AD39FB69244024C200D9DB02 /* Main.storyboard */,
+				AD39FB6C244024C800D9DB02 /* Assets.xcassets */,
+				AD39FB6E244024C800D9DB02 /* LaunchScreen.storyboard */,
+				AD39FB71244024C800D9DB02 /* Info.plist */,
+			);
+			path = "Queen Green Smart Farm";
+			sourceTree = "<group>";
+		};
+		AD39FB79244024C900D9DB02 /* Queen Green Smart FarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD39FB7A244024C900D9DB02 /* Queen_Green_Smart_FarmTests.swift */,
+				AD39FB7C244024C900D9DB02 /* Info.plist */,
+			);
+			path = "Queen Green Smart FarmTests";
+			sourceTree = "<group>";
+		};
+		AD39FB84244024C900D9DB02 /* Queen Green Smart FarmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD39FB85244024C900D9DB02 /* Queen_Green_Smart_FarmUITests.swift */,
+				AD39FB87244024C900D9DB02 /* Info.plist */,
+			);
+			path = "Queen Green Smart FarmUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD39FB5F244024C200D9DB02 /* Queen Green Smart Farm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD39FB8A244024C900D9DB02 /* Build configuration list for PBXNativeTarget "Queen Green Smart Farm" */;
+			buildPhases = (
+				AD39FB5C244024C200D9DB02 /* Sources */,
+				AD39FB5D244024C200D9DB02 /* Frameworks */,
+				AD39FB5E244024C200D9DB02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Queen Green Smart Farm";
+			productName = "Queen Green Smart Farm";
+			productReference = AD39FB60244024C200D9DB02 /* Queen Green Smart Farm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD39FB75244024C900D9DB02 /* Queen Green Smart FarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD39FB8D244024C900D9DB02 /* Build configuration list for PBXNativeTarget "Queen Green Smart FarmTests" */;
+			buildPhases = (
+				AD39FB72244024C900D9DB02 /* Sources */,
+				AD39FB73244024C900D9DB02 /* Frameworks */,
+				AD39FB74244024C900D9DB02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD39FB78244024C900D9DB02 /* PBXTargetDependency */,
+			);
+			name = "Queen Green Smart FarmTests";
+			productName = "Queen Green Smart FarmTests";
+			productReference = AD39FB76244024C900D9DB02 /* Queen Green Smart FarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD39FB80244024C900D9DB02 /* Queen Green Smart FarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD39FB90244024C900D9DB02 /* Build configuration list for PBXNativeTarget "Queen Green Smart FarmUITests" */;
+			buildPhases = (
+				AD39FB7D244024C900D9DB02 /* Sources */,
+				AD39FB7E244024C900D9DB02 /* Frameworks */,
+				AD39FB7F244024C900D9DB02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD39FB83244024C900D9DB02 /* PBXTargetDependency */,
+			);
+			name = "Queen Green Smart FarmUITests";
+			productName = "Queen Green Smart FarmUITests";
+			productReference = AD39FB81244024C900D9DB02 /* Queen Green Smart FarmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD39FB58244024C200D9DB02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Special  Topics";
+				TargetAttributes = {
+					AD39FB5F244024C200D9DB02 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					AD39FB75244024C900D9DB02 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = AD39FB5F244024C200D9DB02;
+					};
+					AD39FB80244024C900D9DB02 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = AD39FB5F244024C200D9DB02;
+					};
+				};
+			};
+			buildConfigurationList = AD39FB5B244024C200D9DB02 /* Build configuration list for PBXProject "Queen Green Smart Farm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD39FB57244024C200D9DB02;
+			productRefGroup = AD39FB61244024C200D9DB02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD39FB5F244024C200D9DB02 /* Queen Green Smart Farm */,
+				AD39FB75244024C900D9DB02 /* Queen Green Smart FarmTests */,
+				AD39FB80244024C900D9DB02 /* Queen Green Smart FarmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD39FB5E244024C200D9DB02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD39FB70244024C800D9DB02 /* LaunchScreen.storyboard in Resources */,
+				AD39FB6D244024C800D9DB02 /* Assets.xcassets in Resources */,
+				AD39FB6B244024C200D9DB02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD39FB74244024C900D9DB02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD39FB7F244024C900D9DB02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD39FB5C244024C200D9DB02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD39FB68244024C200D9DB02 /* ViewController.swift in Sources */,
+				AD39FB64244024C200D9DB02 /* AppDelegate.swift in Sources */,
+				AD39FB66244024C200D9DB02 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD39FB72244024C900D9DB02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD39FB7B244024C900D9DB02 /* Queen_Green_Smart_FarmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD39FB7D244024C900D9DB02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD39FB86244024C900D9DB02 /* Queen_Green_Smart_FarmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD39FB78244024C900D9DB02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD39FB5F244024C200D9DB02 /* Queen Green Smart Farm */;
+			targetProxy = AD39FB77244024C900D9DB02 /* PBXContainerItemProxy */;
+		};
+		AD39FB83244024C900D9DB02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD39FB5F244024C200D9DB02 /* Queen Green Smart Farm */;
+			targetProxy = AD39FB82244024C900D9DB02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD39FB69244024C200D9DB02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD39FB6A244024C200D9DB02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD39FB6E244024C800D9DB02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD39FB6F244024C800D9DB02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD39FB88244024C900D9DB02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD39FB89244024C900D9DB02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD39FB8B244024C900D9DB02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3DX82J2GK;
+				INFOPLIST_FILE = "Queen Green Smart Farm/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.thehouseofj.Queen-Green-Smart-Farm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD39FB8C244024C900D9DB02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3DX82J2GK;
+				INFOPLIST_FILE = "Queen Green Smart Farm/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.thehouseofj.Queen-Green-Smart-Farm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD39FB8E244024C900D9DB02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3DX82J2GK;
+				INFOPLIST_FILE = "Queen Green Smart FarmTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.thehouseofj.Queen-Green-Smart-FarmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Queen Green Smart Farm.app/Queen Green Smart Farm";
+			};
+			name = Debug;
+		};
+		AD39FB8F244024C900D9DB02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3DX82J2GK;
+				INFOPLIST_FILE = "Queen Green Smart FarmTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.thehouseofj.Queen-Green-Smart-FarmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Queen Green Smart Farm.app/Queen Green Smart Farm";
+			};
+			name = Release;
+		};
+		AD39FB91244024C900D9DB02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3DX82J2GK;
+				INFOPLIST_FILE = "Queen Green Smart FarmUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.thehouseofj.Queen-Green-Smart-FarmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Queen Green Smart Farm";
+			};
+			name = Debug;
+		};
+		AD39FB92244024C900D9DB02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3DX82J2GK;
+				INFOPLIST_FILE = "Queen Green Smart FarmUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.thehouseofj.Queen-Green-Smart-FarmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Queen Green Smart Farm";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD39FB5B244024C200D9DB02 /* Build configuration list for PBXProject "Queen Green Smart Farm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD39FB88244024C900D9DB02 /* Debug */,
+				AD39FB89244024C900D9DB02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD39FB8A244024C900D9DB02 /* Build configuration list for PBXNativeTarget "Queen Green Smart Farm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD39FB8B244024C900D9DB02 /* Debug */,
+				AD39FB8C244024C900D9DB02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD39FB8D244024C900D9DB02 /* Build configuration list for PBXNativeTarget "Queen Green Smart FarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD39FB8E244024C900D9DB02 /* Debug */,
+				AD39FB8F244024C900D9DB02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD39FB90244024C900D9DB02 /* Build configuration list for PBXNativeTarget "Queen Green Smart FarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD39FB91244024C900D9DB02 /* Debug */,
+				AD39FB92244024C900D9DB02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD39FB58244024C200D9DB02 /* Project object */;
+}
