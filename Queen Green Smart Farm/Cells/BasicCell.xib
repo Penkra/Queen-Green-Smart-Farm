@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Krub-Regular.ttf">
+            <string>Krub-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BasicCell" id="cfH-D7-EZq" customClass="BasicCell" customModule="My_Day" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cfH-D7-EZq" id="CPs-vF-BBM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ezk-F4-ExX">
+                        <rect key="frame" x="20" y="7" width="280" height="30"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="52l-gj-3Ip">
+                                <rect key="frame" x="0.0" y="0.0" width="236" height="30"/>
+                                <fontDescription key="fontDescription" name="Krub-Regular" family="Krub" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LrU-dM-hBD">
+                                <rect key="frame" x="236" y="0.0" width="44" height="30"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                <state key="normal" title="Action"/>
+                            </button>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Ezk-F4-ExX" firstAttribute="centerX" secondItem="CPs-vF-BBM" secondAttribute="centerX" id="3ST-2u-i3P"/>
+                    <constraint firstItem="Ezk-F4-ExX" firstAttribute="leading" secondItem="CPs-vF-BBM" secondAttribute="leading" constant="20" id="H0U-z2-NtP"/>
+                    <constraint firstItem="Ezk-F4-ExX" firstAttribute="centerY" secondItem="CPs-vF-BBM" secondAttribute="centerY" id="Jln-HR-0Fq"/>
+                    <constraint firstAttribute="trailing" secondItem="Ezk-F4-ExX" secondAttribute="trailing" constant="20" id="sZy-Qd-0xO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="JQg-qz-vkr"/>
+            <connections>
+                <outlet property="action" destination="LrU-dM-hBD" id="1Dc-Db-1X4"/>
+                <outlet property="name" destination="52l-gj-3Ip" id="QSs-h9-WpH"/>
+            </connections>
+            <point key="canvasLocation" x="132" y="111"/>
+        </tableViewCell>
+    </objects>
+</document>

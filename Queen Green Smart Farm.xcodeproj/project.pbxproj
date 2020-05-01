@@ -3,18 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CF470FEBA433A11C06E27AF /* Pods_Queen_Green_Smart_Farm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB5246E6752FFAE433ED0DF /* Pods_Queen_Green_Smart_Farm.framework */; };
+		AD2644102453D72C00087D5A /* BasicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26440E2453D72C00087D5A /* BasicCell.swift */; };
+		AD2644112453D72C00087D5A /* BasicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD26440F2453D72C00087D5A /* BasicCell.xib */; };
+		AD2644132453DB5000087D5A /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2644122453DB5000087D5A /* OrdersViewController.swift */; };
 		AD39FB64244024C200D9DB02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD39FB63244024C200D9DB02 /* AppDelegate.swift */; };
-		AD39FB66244024C200D9DB02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD39FB65244024C200D9DB02 /* SceneDelegate.swift */; };
-		AD39FB68244024C200D9DB02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD39FB67244024C200D9DB02 /* ViewController.swift */; };
+		AD39FB68244024C200D9DB02 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD39FB67244024C200D9DB02 /* FirstViewController.swift */; };
 		AD39FB6B244024C200D9DB02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD39FB69244024C200D9DB02 /* Main.storyboard */; };
 		AD39FB6D244024C800D9DB02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD39FB6C244024C800D9DB02 /* Assets.xcassets */; };
 		AD39FB70244024C800D9DB02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD39FB6E244024C800D9DB02 /* LaunchScreen.storyboard */; };
 		AD39FB7B244024C900D9DB02 /* Queen_Green_Smart_FarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD39FB7A244024C900D9DB02 /* Queen_Green_Smart_FarmTests.swift */; };
 		AD39FB86244024C900D9DB02 /* Queen_Green_Smart_FarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD39FB85244024C900D9DB02 /* Queen_Green_Smart_FarmUITests.swift */; };
+		AD39FB982440418E00D9DB02 /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD39FB972440418E00D9DB02 /* Actions.swift */; };
+		AD39FB9A2440428E00D9DB02 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD39FB992440428E00D9DB02 /* Globals.swift */; };
+		AD39FB9C24404E5000D9DB02 /* Part1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD39FB9B24404E5000D9DB02 /* Part1ViewController.swift */; };
+		AD39FB9E24404E5F00D9DB02 /* Part2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD39FB9D24404E5F00D9DB02 /* Part2ViewController.swift */; };
+		AD39FBA024404E6C00D9DB02 /* Part3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD39FB9F24404E6C00D9DB02 /* Part3ViewController.swift */; };
+		AD39FBA524405C8200D9DB02 /* MenuHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD39FBA124405C8200D9DB02 /* MenuHeader.xib */; };
+		AD39FBA624405C8200D9DB02 /* MenuHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD39FBA224405C8200D9DB02 /* MenuHeader.swift */; };
+		AD39FBA724405C8200D9DB02 /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD39FBA324405C8200D9DB02 /* MenuCell.xib */; };
+		AD39FBA824405C8200D9DB02 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD39FBA424405C8200D9DB02 /* MenuCell.swift */; };
+		AD39FBAA24405EC800D9DB02 /* MenuLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD39FBA924405EC800D9DB02 /* MenuLauncher.swift */; };
+		AD39FBAC24405F9B00D9DB02 /* Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD39FBAB24405F9B00D9DB02 /* Objects.swift */; };
+		AD3BC448245C8DE600E94C55 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3BC447245C8DE600E94C55 /* CalendarViewController.swift */; };
+		AD3BC44A245CAB2500E94C55 /* Order1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3BC449245CAB2500E94C55 /* Order1ViewController.swift */; };
+		AD3BC44C245CAD8A00E94C55 /* StarterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3BC44B245CAD8A00E94C55 /* StarterViewController.swift */; };
+		AD3BC44E245CB1F900E94C55 /* IndividualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3BC44D245CB1F900E94C55 /* IndividualViewController.swift */; };
+		AD3BC450245CBAA600E94C55 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3BC44F245CBAA600E94C55 /* ProfileViewController.swift */; };
+		ADA43FC52453AE0100884B29 /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA43FC42453AE0100884B29 /* Internet.swift */; };
+		ADA43FC92453C1FD00884B29 /* GrowingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA43FC82453C1FD00884B29 /* GrowingViewController.swift */; };
+		B4702415BDD033DCF407FE73 /* Pods_Queen_Green_Smart_FarmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC82907BF4EE3677C140E344 /* Pods_Queen_Green_Smart_FarmTests.framework */; };
+		B5813F53ED846BA4F8BD86C7 /* Pods_Queen_Green_Smart_Farm_Queen_Green_Smart_FarmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F78FBBC6EEFEB901BF1DB0 /* Pods_Queen_Green_Smart_Farm_Queen_Green_Smart_FarmUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +58,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0851D981246FF251C684775A /* Pods-Queen Green Smart Farm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Queen Green Smart Farm.debug.xcconfig"; path = "Target Support Files/Pods-Queen Green Smart Farm/Pods-Queen Green Smart Farm.debug.xcconfig"; sourceTree = "<group>"; };
+		152363B95356E86A26E6F197 /* Pods-Queen Green Smart Farm-Queen Green Smart FarmUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Queen Green Smart Farm-Queen Green Smart FarmUITests.debug.xcconfig"; path = "Target Support Files/Pods-Queen Green Smart Farm-Queen Green Smart FarmUITests/Pods-Queen Green Smart Farm-Queen Green Smart FarmUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A4AF6FBE5311379DF899B22 /* Pods-Queen Green Smart FarmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Queen Green Smart FarmTests.debug.xcconfig"; path = "Target Support Files/Pods-Queen Green Smart FarmTests/Pods-Queen Green Smart FarmTests.debug.xcconfig"; sourceTree = "<group>"; };
+		56F78FBBC6EEFEB901BF1DB0 /* Pods_Queen_Green_Smart_Farm_Queen_Green_Smart_FarmUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Queen_Green_Smart_Farm_Queen_Green_Smart_FarmUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC82907BF4EE3677C140E344 /* Pods_Queen_Green_Smart_FarmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Queen_Green_Smart_FarmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD26440E2453D72C00087D5A /* BasicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCell.swift; sourceTree = "<group>"; };
+		AD26440F2453D72C00087D5A /* BasicCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasicCell.xib; sourceTree = "<group>"; };
+		AD2644122453DB5000087D5A /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
 		AD39FB60244024C200D9DB02 /* Queen Green Smart Farm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Queen Green Smart Farm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD39FB63244024C200D9DB02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AD39FB65244024C200D9DB02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AD39FB67244024C200D9DB02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD39FB67244024C200D9DB02 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		AD39FB6A244024C200D9DB02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD39FB6C244024C800D9DB02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD39FB6F244024C800D9DB02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +79,28 @@
 		AD39FB81244024C900D9DB02 /* Queen Green Smart FarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Queen Green Smart FarmUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD39FB85244024C900D9DB02 /* Queen_Green_Smart_FarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queen_Green_Smart_FarmUITests.swift; sourceTree = "<group>"; };
 		AD39FB87244024C900D9DB02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD39FB972440418E00D9DB02 /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
+		AD39FB992440428E00D9DB02 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		AD39FB9B24404E5000D9DB02 /* Part1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Part1ViewController.swift; sourceTree = "<group>"; };
+		AD39FB9D24404E5F00D9DB02 /* Part2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Part2ViewController.swift; sourceTree = "<group>"; };
+		AD39FB9F24404E6C00D9DB02 /* Part3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Part3ViewController.swift; sourceTree = "<group>"; };
+		AD39FBA124405C8200D9DB02 /* MenuHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuHeader.xib; sourceTree = "<group>"; };
+		AD39FBA224405C8200D9DB02 /* MenuHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuHeader.swift; sourceTree = "<group>"; };
+		AD39FBA324405C8200D9DB02 /* MenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
+		AD39FBA424405C8200D9DB02 /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		AD39FBA924405EC800D9DB02 /* MenuLauncher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuLauncher.swift; sourceTree = "<group>"; };
+		AD39FBAB24405F9B00D9DB02 /* Objects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Objects.swift; sourceTree = "<group>"; };
+		AD3BC447245C8DE600E94C55 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		AD3BC449245CAB2500E94C55 /* Order1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order1ViewController.swift; sourceTree = "<group>"; };
+		AD3BC44B245CAD8A00E94C55 /* StarterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterViewController.swift; sourceTree = "<group>"; };
+		AD3BC44D245CB1F900E94C55 /* IndividualViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualViewController.swift; sourceTree = "<group>"; };
+		AD3BC44F245CBAA600E94C55 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		ADA43FC42453AE0100884B29 /* Internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
+		ADA43FC82453C1FD00884B29 /* GrowingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowingViewController.swift; sourceTree = "<group>"; };
+		BCB5246E6752FFAE433ED0DF /* Pods_Queen_Green_Smart_Farm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Queen_Green_Smart_Farm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D608F3F57E20A673932156 /* Pods-Queen Green Smart Farm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Queen Green Smart Farm.release.xcconfig"; path = "Target Support Files/Pods-Queen Green Smart Farm/Pods-Queen Green Smart Farm.release.xcconfig"; sourceTree = "<group>"; };
+		F45E5426D96910F740B55CAF /* Pods-Queen Green Smart FarmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Queen Green Smart FarmTests.release.xcconfig"; path = "Target Support Files/Pods-Queen Green Smart FarmTests/Pods-Queen Green Smart FarmTests.release.xcconfig"; sourceTree = "<group>"; };
+		FC2980D2AE3F5AD3608E217C /* Pods-Queen Green Smart Farm-Queen Green Smart FarmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Queen Green Smart Farm-Queen Green Smart FarmUITests.release.xcconfig"; path = "Target Support Files/Pods-Queen Green Smart Farm-Queen Green Smart FarmUITests/Pods-Queen Green Smart Farm-Queen Green Smart FarmUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CF470FEBA433A11C06E27AF /* Pods_Queen_Green_Smart_Farm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4702415BDD033DCF407FE73 /* Pods_Queen_Green_Smart_FarmTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +124,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5813F53ED846BA4F8BD86C7 /* Pods_Queen_Green_Smart_Farm_Queen_Green_Smart_FarmUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		674E3B7EB4C4D426E7C7A3D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5246E6752FFAE433ED0DF /* Pods_Queen_Green_Smart_Farm.framework */,
+				56F78FBBC6EEFEB901BF1DB0 /* Pods_Queen_Green_Smart_Farm_Queen_Green_Smart_FarmUITests.framework */,
+				AC82907BF4EE3677C140E344 /* Pods_Queen_Green_Smart_FarmTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81A80E247B314BCF7CED10E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0851D981246FF251C684775A /* Pods-Queen Green Smart Farm.debug.xcconfig */,
+				F2D608F3F57E20A673932156 /* Pods-Queen Green Smart Farm.release.xcconfig */,
+				152363B95356E86A26E6F197 /* Pods-Queen Green Smart Farm-Queen Green Smart FarmUITests.debug.xcconfig */,
+				FC2980D2AE3F5AD3608E217C /* Pods-Queen Green Smart Farm-Queen Green Smart FarmUITests.release.xcconfig */,
+				1A4AF6FBE5311379DF899B22 /* Pods-Queen Green Smart FarmTests.debug.xcconfig */,
+				F45E5426D96910F740B55CAF /* Pods-Queen Green Smart FarmTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AD39FB57244024C200D9DB02 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +161,8 @@
 				AD39FB79244024C900D9DB02 /* Queen Green Smart FarmTests */,
 				AD39FB84244024C900D9DB02 /* Queen Green Smart FarmUITests */,
 				AD39FB61244024C200D9DB02 /* Products */,
+				81A80E247B314BCF7CED10E3 /* Pods */,
+				674E3B7EB4C4D426E7C7A3D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +179,14 @@
 		AD39FB62244024C200D9DB02 /* Queen Green Smart Farm */ = {
 			isa = PBXGroup;
 			children = (
-				AD39FB63244024C200D9DB02 /* AppDelegate.swift */,
-				AD39FB65244024C200D9DB02 /* SceneDelegate.swift */,
-				AD39FB67244024C200D9DB02 /* ViewController.swift */,
-				AD39FB69244024C200D9DB02 /* Main.storyboard */,
-				AD39FB6C244024C800D9DB02 /* Assets.xcassets */,
-				AD39FB6E244024C800D9DB02 /* LaunchScreen.storyboard */,
 				AD39FB71244024C800D9DB02 /* Info.plist */,
+				AD39FB96244026DD00D9DB02 /* Extras */,
+				AD39FB95244026D500D9DB02 /* Cells */,
+				AD39FB94244026C500D9DB02 /* ViewControllers */,
+				AD39FB93244026BD00D9DB02 /* Helpers */,
+				AD39FB69244024C200D9DB02 /* Main.storyboard */,
+				AD39FB6E244024C800D9DB02 /* LaunchScreen.storyboard */,
+				AD39FB6C244024C800D9DB02 /* Assets.xcassets */,
 			);
 			path = "Queen Green Smart Farm";
 			sourceTree = "<group>";
@@ -128,6 +209,57 @@
 			path = "Queen Green Smart FarmUITests";
 			sourceTree = "<group>";
 		};
+		AD39FB93244026BD00D9DB02 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		AD39FB94244026C500D9DB02 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD39FB67244024C200D9DB02 /* FirstViewController.swift */,
+				AD39FB9B24404E5000D9DB02 /* Part1ViewController.swift */,
+				AD39FB9D24404E5F00D9DB02 /* Part2ViewController.swift */,
+				AD39FB9F24404E6C00D9DB02 /* Part3ViewController.swift */,
+				ADA43FC82453C1FD00884B29 /* GrowingViewController.swift */,
+				AD2644122453DB5000087D5A /* OrdersViewController.swift */,
+				AD3BC447245C8DE600E94C55 /* CalendarViewController.swift */,
+				AD3BC449245CAB2500E94C55 /* Order1ViewController.swift */,
+				AD3BC44B245CAD8A00E94C55 /* StarterViewController.swift */,
+				AD3BC44D245CB1F900E94C55 /* IndividualViewController.swift */,
+				AD3BC44F245CBAA600E94C55 /* ProfileViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AD39FB95244026D500D9DB02 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AD39FBA424405C8200D9DB02 /* MenuCell.swift */,
+				AD39FBA324405C8200D9DB02 /* MenuCell.xib */,
+				AD39FBA224405C8200D9DB02 /* MenuHeader.swift */,
+				AD39FBA124405C8200D9DB02 /* MenuHeader.xib */,
+				AD26440E2453D72C00087D5A /* BasicCell.swift */,
+				AD26440F2453D72C00087D5A /* BasicCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		AD39FB96244026DD00D9DB02 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				AD39FB63244024C200D9DB02 /* AppDelegate.swift */,
+				AD39FB972440418E00D9DB02 /* Actions.swift */,
+				AD39FB992440428E00D9DB02 /* Globals.swift */,
+				AD39FBA924405EC800D9DB02 /* MenuLauncher.swift */,
+				AD39FBAB24405F9B00D9DB02 /* Objects.swift */,
+				ADA43FC42453AE0100884B29 /* Internet.swift */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +267,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD39FB8A244024C900D9DB02 /* Build configuration list for PBXNativeTarget "Queen Green Smart Farm" */;
 			buildPhases = (
+				F85BE51DF1DC7093D944C04D /* [CP] Check Pods Manifest.lock */,
 				AD39FB5C244024C200D9DB02 /* Sources */,
 				AD39FB5D244024C200D9DB02 /* Frameworks */,
 				AD39FB5E244024C200D9DB02 /* Resources */,
+				20AE6101AB7300B9E3F8691C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +286,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD39FB8D244024C900D9DB02 /* Build configuration list for PBXNativeTarget "Queen Green Smart FarmTests" */;
 			buildPhases = (
+				CE9C6B47A4AEDE839F5C9CAB /* [CP] Check Pods Manifest.lock */,
 				AD39FB72244024C900D9DB02 /* Sources */,
 				AD39FB73244024C900D9DB02 /* Frameworks */,
 				AD39FB74244024C900D9DB02 /* Resources */,
@@ -170,9 +305,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD39FB90244024C900D9DB02 /* Build configuration list for PBXNativeTarget "Queen Green Smart FarmUITests" */;
 			buildPhases = (
+				A5683490CF523D19FA1B62B0 /* [CP] Check Pods Manifest.lock */,
 				AD39FB7D244024C900D9DB02 /* Sources */,
 				AD39FB7E244024C900D9DB02 /* Frameworks */,
 				AD39FB7F244024C900D9DB02 /* Resources */,
+				0C9C4E13AE9B352D55AC4F6D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +370,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD39FB70244024C800D9DB02 /* LaunchScreen.storyboard in Resources */,
+				AD39FBA524405C8200D9DB02 /* MenuHeader.xib in Resources */,
+				AD39FBA724405C8200D9DB02 /* MenuCell.xib in Resources */,
 				AD39FB6D244024C800D9DB02 /* Assets.xcassets in Resources */,
+				AD2644112453D72C00087D5A /* BasicCell.xib in Resources */,
 				AD39FB6B244024C200D9DB02 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,14 +394,134 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C9C4E13AE9B352D55AC4F6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Queen Green Smart Farm-Queen Green Smart FarmUITests/Pods-Queen Green Smart Farm-Queen Green Smart FarmUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Queen Green Smart Farm-Queen Green Smart FarmUITests/Pods-Queen Green Smart Farm-Queen Green Smart FarmUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Queen Green Smart Farm-Queen Green Smart FarmUITests/Pods-Queen Green Smart Farm-Queen Green Smart FarmUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20AE6101AB7300B9E3F8691C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Queen Green Smart Farm/Pods-Queen Green Smart Farm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Queen Green Smart Farm/Pods-Queen Green Smart Farm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Queen Green Smart Farm/Pods-Queen Green Smart Farm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5683490CF523D19FA1B62B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Queen Green Smart Farm-Queen Green Smart FarmUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE9C6B47A4AEDE839F5C9CAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Queen Green Smart FarmTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F85BE51DF1DC7093D944C04D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Queen Green Smart Farm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AD39FB5C244024C200D9DB02 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD39FB68244024C200D9DB02 /* ViewController.swift in Sources */,
+				AD3BC448245C8DE600E94C55 /* CalendarViewController.swift in Sources */,
+				AD39FB9A2440428E00D9DB02 /* Globals.swift in Sources */,
+				AD3BC450245CBAA600E94C55 /* ProfileViewController.swift in Sources */,
+				AD39FBA624405C8200D9DB02 /* MenuHeader.swift in Sources */,
+				AD39FBAC24405F9B00D9DB02 /* Objects.swift in Sources */,
+				AD39FBA824405C8200D9DB02 /* MenuCell.swift in Sources */,
+				AD39FB982440418E00D9DB02 /* Actions.swift in Sources */,
+				AD39FBA024404E6C00D9DB02 /* Part3ViewController.swift in Sources */,
+				ADA43FC52453AE0100884B29 /* Internet.swift in Sources */,
+				AD39FB9E24404E5F00D9DB02 /* Part2ViewController.swift in Sources */,
+				AD3BC44A245CAB2500E94C55 /* Order1ViewController.swift in Sources */,
+				AD39FB68244024C200D9DB02 /* FirstViewController.swift in Sources */,
+				ADA43FC92453C1FD00884B29 /* GrowingViewController.swift in Sources */,
+				AD2644132453DB5000087D5A /* OrdersViewController.swift in Sources */,
+				AD39FB9C24404E5000D9DB02 /* Part1ViewController.swift in Sources */,
+				AD39FBAA24405EC800D9DB02 /* MenuLauncher.swift in Sources */,
+				AD2644102453D72C00087D5A /* BasicCell.swift in Sources */,
+				AD3BC44E245CB1F900E94C55 /* IndividualViewController.swift in Sources */,
+				AD3BC44C245CAD8A00E94C55 /* StarterViewController.swift in Sources */,
 				AD39FB64244024C200D9DB02 /* AppDelegate.swift in Sources */,
-				AD39FB66244024C200D9DB02 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,11 +692,13 @@
 		};
 		AD39FB8B244024C900D9DB02 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0851D981246FF251C684775A /* Pods-Queen Green Smart Farm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q3DX82J2GK;
 				INFOPLIST_FILE = "Queen Green Smart Farm/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,17 +706,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "net.thehouseofj.Queen-Green-Smart-Farm";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		AD39FB8C244024C900D9DB02 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2D608F3F57E20A673932156 /* Pods-Queen Green Smart Farm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q3DX82J2GK;
 				INFOPLIST_FILE = "Queen Green Smart Farm/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,12 +726,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "net.thehouseofj.Queen-Green-Smart-Farm";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		AD39FB8E244024C900D9DB02 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A4AF6FBE5311379DF899B22 /* Pods-Queen Green Smart FarmTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +755,7 @@
 		};
 		AD39FB8F244024C900D9DB02 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F45E5426D96910F740B55CAF /* Pods-Queen Green Smart FarmTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +778,7 @@
 		};
 		AD39FB91244024C900D9DB02 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 152363B95356E86A26E6F197 /* Pods-Queen Green Smart Farm-Queen Green Smart FarmUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +799,7 @@
 		};
 		AD39FB92244024C900D9DB02 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC2980D2AE3F5AD3608E217C /* Pods-Queen Green Smart Farm-Queen Green Smart FarmUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
